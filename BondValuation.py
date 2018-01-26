@@ -1,7 +1,7 @@
 #----------------------------------
 #Language: Python
-#Function: bond_price(p,r,ttm,y)
-#Inputs: p for par value, r for coupon rate, ttm for time to maturity, and y for yield
+#Function: bond_price(par_val, coup_rate, ttm, yld)
+#Inputs: par_val for par value, coup_rate for coupon rate, ttm for time to maturity, and yld for yield
 #Outputs: Dataframe,  Bond Price
 #----------------------------------
 
