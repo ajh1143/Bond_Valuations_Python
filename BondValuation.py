@@ -25,7 +25,7 @@ def bond_price(par_val, coup_rate, ttm, yld):
     df.set_index('Time', inplace=True)
     return df, sum(df.PV)
 
-# Example set 
+# Example set with par value = $100, coupon rate = %5, time to maturity = 5 years, and yield = %6
 dataset, bondval = bond_price(100, 0.05, 5, 0.06)
 pprint(dataset)
 print("Total Bond Price: $" + str(bondval))
