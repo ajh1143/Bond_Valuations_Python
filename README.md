@@ -8,6 +8,8 @@ import pandas as pd
 import numpy as np
 from pprint import pprint
 ```
+
+________________________________________________________________________________________________________________________________________
 ## Bond Price
 ```Python3
 def bond_price(par_val, coup_rate, ttm, yld):
@@ -36,6 +38,7 @@ def bond_price(par_val, coup_rate, ttm, yld):
     return df, sum(df.PV)
 ```
 
+________________________________________________________________________________________________________________________________________
 ## Example set     
 Conditions: par value = $100, coupon rate = %5, time to maturity = 5 years, and yield = %6
 ```Python3
